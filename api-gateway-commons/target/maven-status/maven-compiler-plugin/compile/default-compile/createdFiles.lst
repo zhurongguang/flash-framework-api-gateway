@@ -1,0 +1,5 @@
+com/flash/framework/gateway/commons/RouteChangeMessage.class
+com/flash/framework/gateway/commons/CustomFilterDefinition.class
+com/flash/framework/gateway/commons/CustomPredicateDefinition.class
+com/flash/framework/gateway/commons/CustomRouteDefinition.class
+com/flash/framework/gateway/commons/RouteChangeType.class

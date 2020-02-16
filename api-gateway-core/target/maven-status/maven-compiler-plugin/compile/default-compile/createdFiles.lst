@@ -1,0 +1,5 @@
+com/flash/framework/gateway/ApiGatewayApplication.class
+com/flash/framework/gateway/redis/RedisRouteDefinitionRepository.class
+com/flash/framework/gateway/redis/RouteChangeMessageListener.class
+com/flash/framework/gateway/redis/RouteChangeMessageListener$1.class
+com/flash/framework/gateway/DynamicRouteHandler.class

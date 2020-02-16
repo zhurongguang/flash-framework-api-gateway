@@ -1,0 +1,5 @@
+com/flash/framework/gateway/sdk/GatewayRouteWriter.class
+com/flash/framework/gateway/sdk/GatewayRouteReader.class
+com/flash/framework/gateway/sdk/redis/RedisGatewayRouteReader.class
+com/flash/framework/gateway/sdk/redis/RedisGatewayRouteWriter.class
+com/flash/framework/gateway/sdk/ApiGatewayAutoConfiguration.class

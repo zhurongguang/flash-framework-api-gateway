@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181
+      discovery:
+        enabled: true
+    gateway:
+      routes:
+      #- id: zk-web
+      #  uri: lb://zk-web
+      #  predicates:
+      #  - Path=/zk-web/**
+      discovery:
+        locator:
+          enabled: true
+  redis:
+    database: 1
+    port: 6379
+    host: 127.0.0.1
+    lettuce:
+      pool:
+        max-active: 100
+        max-idle: 20
+        min-idle: 10
+server:
+  port: 8080
